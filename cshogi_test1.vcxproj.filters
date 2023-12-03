@@ -49,6 +49,9 @@
     <Filter Include="ヘッダー ファイル\test">
       <UniqueIdentifier>{e6d63920-074b-4ccc-91a6-66dca5d658fe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ヘッダー ファイル\dataloader_cy">
+      <UniqueIdentifier>{089c8adb-1b9a-49f7-ba52-697d2ba6673d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\cshogi_cpp\usi.cpp">
@@ -352,9 +355,6 @@
     <None Include="src\test\unpack_test.cuh">
       <Filter>ヘッダー ファイル\test</Filter>
     </None>
-    <None Include="src\test\unpack_test.cu">
-      <Filter>ソース ファイル\test</Filter>
-    </None>
     <None Include="src\test\fast_dataloader_test.py">
       <Filter>ソース ファイル\test</Filter>
     </None>
@@ -364,10 +364,16 @@
     <None Include="src\test\fast_dataloader_test3.py">
       <Filter>ソース ファイル\test</Filter>
     </None>
+    <None Include="src\dataloader_cy\fast_dataloader.pyx">
+      <Filter>ヘッダー ファイル\dataloader_cy</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="src\unpack_feature_V2.cu">
       <Filter>ソース ファイル</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\test\unpack_test.cu">
+      <Filter>ソース ファイル\test</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
