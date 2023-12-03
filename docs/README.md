@@ -1,8 +1,8 @@
 # KyoShogi
 
-dlshogiの互換エンジンで、ほぼ同等の探索速度[^search_speed]・棋力[^elo_rating]を持ち、dlshogi用のmodelを使うことが出来ます。
+dlshogiの互換エンジンで、dlshogiとほぼ同等の探索速度[^search_speed]・棋力[^elo_rating]を持ち、dlshogi用のmodelを使うことが出来ます。
 
-dlshogiと探索経路, 評価値が完全に一致することを確認しています。[^match_search_dl]
+dlshogiと探索経路・評価値ともに完全に一致することを確認しています。[^match_search_dl]
 
 第4回電竜戦において、予選10位, A級10位となりました。
 
