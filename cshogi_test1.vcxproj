@@ -535,15 +535,15 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PARALLEL_PUCT_PLAYER|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>$(ProjectName)_paralle_puct_player</TargetName>
+    <TargetName>$(ProjectName)_parallel_puct_player</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PARALLEL_PUCT_PLAYER_DR4|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>$(ProjectName)_paralle_puct_player_dr4</TargetName>
+    <TargetName>$(ProjectName)_parallel_puct_player_dr4</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PARALLEL_PUCT_PLAYER_DEBUG|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>$(ProjectName)_paralle_puct_player</TargetName>
+    <TargetName>$(ProjectName)_parallel_puct_player</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PUCT_PLAYER_DEBUG|x64'">
     <LinkIncremental>false</LinkIncremental>
