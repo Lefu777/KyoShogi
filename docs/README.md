@@ -23,6 +23,9 @@ dlshogiと探索経路・評価値ともに完全に一致することを確認�
 - あくまで勉強用に書いたコードです。ソースコードは本当に汚いです。デバッグ用のコードのままの箇所もあります。
 
 ## 謝辞
+* [python-dlshogi2](https://github.com/TadaoYamaoka/python-dlshogi2)
+  - 開発を始めるきっかけとなったコードです。
+  - 特にPUCT 探索周りの実装を大いに参考にしています。
 * [dlshogi](https://github.com/TadaoYamaoka/DeepLearningShogi)
   - hcpe系の教師の読み込みとparse, bit入力特徴量の作成 に使用しています。
   - ucb_score の計算(fpu reduction, FastLog, etc...), Parallel PUCT, PvMateSearcher, 推論部 の実装を参考にしています。
