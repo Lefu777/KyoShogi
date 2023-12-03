@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\cshogi_cpp">
+      <UniqueIdentifier>{75f6148a-0d6c-42cb-81e7-d866c9492f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\cshogi_cpp">
+      <UniqueIdentifier>{68a21874-6a92-4972-b972-7ebeafd89bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\dataloader_cpp">
+      <UniqueIdentifier>{41f5ab22-6fae-46cf-aed0-8e301fc2581b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\dataloader_cpp">
+      <UniqueIdentifier>{548795bf-8a80-4f19-85a5-1393b7091d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\utils">
+      <UniqueIdentifier>{3a316d36-2d6e-40f1-80f6-f94c818ec6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\utils">
+      <UniqueIdentifier>{78846adb-97c7-4ac5-b1ee-7cadd84665df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\mate">
+      <UniqueIdentifier>{967b7a99-b7f0-4c42-a23f-d8055febfe81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mate">
+      <UniqueIdentifier>{bf1f72db-7513-49c8-aa39-6978762647c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\nn">
+      <UniqueIdentifier>{a2ad9f28-0c92-4e1c-b05a-4f7c88090115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\nn">
+      <UniqueIdentifier>{946eac30-cdee-4aed-8a6c-95d3cf710b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\test">
+      <UniqueIdentifier>{4d548216-c7de-4957-83bb-9c28363a6f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\test">
+      <UniqueIdentifier>{e6d63920-074b-4ccc-91a6-66dca5d658fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cshogi_cpp\usi.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\square.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\search.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\position.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\piece.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\mt64bit.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\move.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\mate.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\init.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\hand.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\generateMoves.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\dfpn.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\common.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\book.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi_cpp\bitboard.cpp">
+      <Filter>ソース ファイル\cshogi_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataloader_cpp\dataloader.cpp">
+      <Filter>ソース ファイル\dataloader_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mate\my_dfpn_parallel5.cpp">
+      <Filter>ソース ファイル\mate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mate\my_dfpn_parallel4.cpp">
+      <Filter>ソース ファイル\mate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mate\my_dfpn_parallel3.cpp">
+      <Filter>ソース ファイル\mate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mate\my_dfpn_parallel2.cpp">
+      <Filter>ソース ファイル\mate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mate\my_dfpn_parallel.cpp">
+      <Filter>ソース ファイル\mate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mate\dfpn_parallel_pv.cpp">
+      <Filter>ソース ファイル\mate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mate\dfpn_dlshogi.cpp">
+      <Filter>ソース ファイル\mate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nn\nn_tensorrt.cpp">
+      <Filter>ソース ファイル\nn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\read_teacher_test.cpp">
+      <Filter>ソース ファイル\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\util.cpp">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\MT.cpp">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\debug_string_queue.cpp">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\usi_parser.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\uct_random_player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\uct_node.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parallel_uct_node.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parallel_puct_player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gensfen_parser.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cshogi.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cshogi_cpp\bitboard.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\book.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\color.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\common.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\cshogi.h">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\dfpn.h">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\generateMoves.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\hand.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\ifdef.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\move.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\mate.h">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\init.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\mt64bit.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\overloadEnumOperators.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\parser.h">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\piece.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\position.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\square.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cshogi_cpp\usi.hpp">
+      <Filter>ヘッダー ファイル\cshogi_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataloader_cpp\dataloader.h">
+      <Filter>ヘッダー ファイル\dataloader_cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mate\dfpn_dlshogi.hpp">
+      <Filter>ヘッダー ファイル\mate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mate\dfpn_parallel_pv.hpp">
+      <Filter>ヘッダー ファイル\mate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mate\dfpn_test.hpp">
+      <Filter>ヘッダー ファイル\mate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mate\my_dfpn_parallel.hpp">
+      <Filter>ヘッダー ファイル\mate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mate\my_dfpn_parallel2.hpp">
+      <Filter>ヘッダー ファイル\mate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mate\my_dfpn_parallel3.hpp">
+      <Filter>ヘッダー ファイル\mate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mate\my_dfpn_parallel4.hpp">
+      <Filter>ヘッダー ファイル\mate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mate\my_dfpn_parallel5.hpp">
+      <Filter>ヘッダー ファイル\mate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nn\buffers.hpp">
+      <Filter>ヘッダー ファイル\nn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nn\common.hpp">
+      <Filter>ヘッダー ファイル\nn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nn\nn_tensorrt.hpp">
+      <Filter>ヘッダー ファイル\nn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\cshogi_Board_mateMove_test.hpp">
+      <Filter>ヘッダー ファイル\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\load_dlshogi_teacher_test.hpp">
+      <Filter>ヘッダー ファイル\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\make_input_feature_FEATURE_V1_test.hpp">
+      <Filter>ヘッダー ファイル\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\make_input_feature_FEATURE_V2_test.hpp">
+      <Filter>ヘッダー ファイル\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\make_input_feature_test.hpp">
+      <Filter>ヘッダー ファイル\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\mgf_test.hpp">
+      <Filter>ヘッダー ファイル\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\nn_tensorrt_test.hpp">
+      <Filter>ヘッダー ファイル\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\parse_CSA_test.hpp">
+      <Filter>ヘッダー ファイル\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\read_teacher_test.hpp">
+      <Filter>ヘッダー ファイル\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\read_yobook_test.hpp">
+      <Filter>ヘッダー ファイル\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\csa_to_teacher.hpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\debug_string_queue.hpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\load_dlshogi_teacher.hpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\MT.hpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\peak_parser.hpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\stop_watch.hpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\util.hpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base_player.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gensfen.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gensfen_parser.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parallel_puct_player.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parallel_uct_node.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pld_compiler.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puct_player.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\random_player.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\types.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\uct_node.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\uct_random_player.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\usi_parser.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\yobook_parser.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\test\unpack_test.cuh">
+      <Filter>ヘッダー ファイル\test</Filter>
+    </None>
+    <None Include="src\test\unpack_test.cu">
+      <Filter>ソース ファイル\test</Filter>
+    </None>
+    <None Include="src\test\fast_dataloader_test.py">
+      <Filter>ソース ファイル\test</Filter>
+    </None>
+    <None Include="src\test\fast_dataloader_test2.py">
+      <Filter>ソース ファイル\test</Filter>
+    </None>
+    <None Include="src\test\fast_dataloader_test3.py">
+      <Filter>ソース ファイル\test</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="src\unpack_feature_V2.cu">
+      <Filter>ソース ファイル</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

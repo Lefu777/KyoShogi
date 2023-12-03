@@ -1,0 +1,2 @@
+#include "cshogi.h"
+
