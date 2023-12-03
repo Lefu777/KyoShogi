@@ -28,7 +28,7 @@ dlshogiと探索経路・評価値ともに完全に一致することを確認�
   - 特にPUCT 探索周りの実装を大いに参考にしています。
 * [dlshogi](https://github.com/TadaoYamaoka/DeepLearningShogi)
   - hcpe系の教師の読み込みとparse, bit入力特徴量の作成 に使用しています。
-  - ucb_score の計算(fpu reduction, FastLog, etc...), Parallel PUCT, PvMateSearcher, 推論部 の実装を参考にしています。
+  - ucb_score の計算(fpu reduction, FastLog, etc...), Parallel PUCT, PvMateSearcher, 推論部, unpack の実装を参考にしています。
 * [cshogi](https://github.com/TadaoYamaoka/cshogi)
   - 盤面の管理, 合法手生成, 入力特徴量作成に使用しています。
   - dfpnの実装を参考にしています。
